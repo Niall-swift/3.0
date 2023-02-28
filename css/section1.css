@@ -1,0 +1,77 @@
+#section1{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    padding: 50px;
+    margin-top: 5rem;
+    
+
+}
+
+.box {
+    border-radius: 50%;
+    padding: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 240px;
+    max-height: 240px;
+    background: rgb(216, 46, 46);
+    margin-left: 6rem;
+    margin-right: 6rem;
+    box-shadow: 1px 1px 18px rgb(205, 51, 51);
+}
+.box button{
+    width: 100px;
+    height: 35px;
+    display: flex;
+    padding: auto;
+    position: absolute;
+    margin-top: 300px;
+    border-radius: 30px;
+    background: #03d826;
+    border: none;
+    box-shadow: 0px 1px 15px #03d826;
+}
+
+.add{
+    font-size: 25px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    align-items: center;
+    width: 105px;
+    height: 105px;
+}
+.item img{
+    margin-left: -20px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    margin-top: -70px;
+}
+.item .valor-produto {
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: -145px;
+    color: #fff;
+    position: absolute;
+}
+
+#nome {
+    margin-left: -150px;
+    color: #fff;
+    position: absolute;
+}

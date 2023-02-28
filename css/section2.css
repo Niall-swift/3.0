@@ -1,0 +1,14 @@
+#section2{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    padding: 50px;
+    
+
+}

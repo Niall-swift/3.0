@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- links do css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/nomaliza.css">
+    <link rel="stylesheet" href="./css/section1.css">
+    <link rel="stylesheet" href="./css/carro-compras.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/nave.css">
+    <link rel="stylesheet" href="./css/section2.css">
+    <!-- fim dos links -->
+    <!-- links icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link type="image/png" sizes="96x96"  rel="icon" href=".../icons8-trash-can-96.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- fimm -->
+    <!-- links da fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    <!-- fim das fontes -->
+    <title>Document</title>
+</head>
+<header>
+  <ul>
+    <li><i class='bx bxs-cart'></i></li>
+    <li><img src="./img/1676838813200.png" alt="logo da loja Espetinho carioca"</li>
+    <li><i class='bx bx-menu-alt-right'></i></li>
+  </ul>  
+</header>
+<body>
+
+  <!-- carrinho de compras  -->
+    <section class="carro-de-compras" id="carro">
+
+        <i class='bx bxs-x-circle bx-flip-horizontal' ></i>
+
+
+
+      <div class="container normal-section">
+        <h2 class="section-title">Carrinho</h2>
+      
+        <table class="cart-table">
+          <thead>
+            <tr>
+              <th class="table-head-item first-col">Item</th>
+              <th class="table-head-item second-col">Preço</th>
+              <th class="table-head-item third-col">Quantidade</th>
+            </tr>
+          </thead>
+          <tbody class="items">
+          
+        </tbody>
+      
+          <tfoot>
+            <tr>
+              <td colspan="3" class="cart-total-container">
+                <strong>Total</strong>
+                <span class="cart-product-price">R$0,00</span>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+        <form class ="formpedidos">
+          <div class="dados">
+  
+            <div class="inputdados">
+              <input type="text" class="dadoscriente" id="nomes" placeholder="seu nome completo">
+            </div>
+  
+            <div class="inputdados">
+              <input type="number" class="dadoscriente" id="numero" placeholder="seu numero de telefone">
+            </div>
+  
+
+            <div class="inputdados">
+              <input type="text" class="dadoscriente" id="endereco" placeholder="seu endereço/Bairo">
+            </div>
+
+           
+  
+            <div class="inputdados">
+              <input type="text" class="dadoscriente" id="numerodacasa" placeholder="número da casa e referencia ">
+            </div>
+  
+            <div class="inputdados">
+              <div class="cartoes">
+                <label for="">Qual e a bandeira do seu cartão </label>
+                <select class="bandeira" id="seleçaodebandeira">
+  
+                <option>mastercard / Debito</option>
+                <option >Visa / electron</option>
+                <option>american express</option>
+                <option>Pix</option>
+        </select>
+             
+               
+              </div>
+            </div>
+          </form>
+        </div>
+        <button id="submit" type="submit" class="btn btn-primary">Finalizar compra</button>
+      </section>
+      </main>
+    </div>
+    <!-- ---------------- -->
+
+
+    <!-- secão da bebida -->
+    <section class="pg1" id="section1" data-card>
+    </section>
+    <!-- ----------------- -->
+
+
+    <!-- secão de speto -->
+    <section class="pg2" id="section2" data-card>
+      <div class="box">
+        <div class="item">
+            <img src="./img/1677486820057.png" alt="" class="imagem-produto">
+            
+                <h1 class="nome-produto" id="nome">Espeto De frango</h1>
+                
+            <p class="valor-produto">R$6.50</p>
+        </div>
+        <button  class="add" type="submit" name="submit">Compra</button>
+    </div>
+
+    <div class="box">
+      <div class="item">
+          <img src="./img/1677486820063.png" alt="" class="imagem-produto">
+          
+              <h1 class="nome-produto" id="nome" >Medalhão</h1>
+              
+          <p class="valor-produto">R$8.00</p>
+      </div>
+      <button  class="add" type="submit" name="submit">Compra</button>
+  </div>
+
+ 
+    </section>
+    <!-- ------------------ -->
+
+    
+
+
+
+    <!-- links javascript -->
+    <script src="./src/enviaPedidos.js" type="module"></script>
+    <script src="./src/nave.js"></script>
+    <script src="./src/systemCompra.js" type="module"></script>
+    <script src="./src/rendProduto.js" type="module"></script>
+    <!-- fim -->
+</body>
+</html>
