@@ -18,7 +18,7 @@ function abrirWhatsapp(){
    
    
 
-    var url = "https://wa.me/5521990414180?text=" // Seu numero
+    var url = "https://wa.me/5521980501851?text=" // Seu numero
       + "*ESPETINHO CARIOCA %20 ;)*" + "%0a" // Mensagem personalizada
       + "%0a" // Quebra de linha
       + "*Nome*:: " + nome + "%0a" // Dados do formulário
