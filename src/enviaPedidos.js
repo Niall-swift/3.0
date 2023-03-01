@@ -27,7 +27,7 @@ function abrirWhatsapp(){
       + "*número da casa*::" + numerodacasa + "%0a" 
       + "*cartão*::"+ bandeira + "%0a%0a"
       + "*items* %0a" +valores+"X-->"+"%20"+ items + "%0a%0a"
-      + "*Valor%20Total*" + valor;
+      + "-Valor%20" + valor;
     window.open(url, '_blank').focus();
 
     console.log()
