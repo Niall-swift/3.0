@@ -16,7 +16,7 @@
     /* botao de remover produto do carrinho */
     .bxs-x-square {
         position: relative;
-        margin-top: -2px;
+        margin-top: -10px;
         margin-left: -45px;
         padding: 5px 2px;
     }
